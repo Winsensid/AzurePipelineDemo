@@ -1,0 +1,13 @@
+{
+  "name": "azurepipelinedemo",
+  "version": "1.0.0",
+  "description": "Static web project for Azure Pipeline and Tomcat practice",
+  "scripts": {
+    "build": "echo 'No build step for static HTML. Add tooling as needed.'",
+    "test": "echo 'No tests yet. Add test tooling as needed.'",
+    "lint": "htmlhint index.html"
+  },
+  "devDependencies": {
+    "htmlhint": "^0.16.0"
+  }
+}
