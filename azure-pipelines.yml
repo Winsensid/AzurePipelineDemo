@@ -1,0 +1,16 @@
+trigger:
+  - main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+  - checkout: self
+
+  - script: |
+      jar -cvf azure-pipeline-demo.war -C . .
+    displayName: 'Build WAR file'
+
+  - publish: azure-pipeline-demo.war
+    artifact: drop
+    displayName: 'Publish WAR artifact'
