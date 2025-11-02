@@ -20,10 +20,6 @@ Files in this repo
 
 
 
-Quick: what I did for you1. Make sure Tomcat is downloaded and extracted. Replace `/path/to/tomcat` below with your Tomcat folder.
-
-
-
 - Deployed the project as an exploded webapp to Tomcat at `/usr/local/opt/tomcat/libexec/webapps/azure-pipeline-demo/` (Homebrew Tomcat). The app is now available at: http://localhost:8080/azure-pipeline-demo/Copy the project into Tomcat `webapps` and start Tomcat:
 
 
@@ -80,7 +76,7 @@ cp -R "$PROJECT_DIR"/* "$TOMCAT_HOME/webapps/azure-pipeline-demo/"catalina run
 
 # open in browser
 
-open "http://localhost:8080/azure-pipeline-demo/"## Use the included Azure Pipelines YAML
+open "http://localhost:8080/XXXXXXXX/"## Use the included Azure Pipelines YAML
 
 ```
 
