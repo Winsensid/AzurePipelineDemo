@@ -2,7 +2,7 @@
 
 # AzurePipelineDemo
 
-A tiny static web project you can deploy to Tomcat and use to practice Azure Pipelines.
+A tiny static web project you can deploy to Tomcat and use to practice Azure Pipeline.
 
 A tiny static web project you can deploy to Tomcat and use to practice Azure Pipelines.
 
